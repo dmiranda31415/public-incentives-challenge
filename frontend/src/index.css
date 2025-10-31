@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root {
+    @apply bg-slate-900 text-white;
+  }
+}
+
+.markdown-body {
+  color: inherit;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+.markdown-body p {
+  margin: 0.15rem 0;
+}
+
+.markdown-body strong {
+  font-weight: 700;
+}
+
+.markdown-body h3 {
+  margin: 0.45rem 0 0.2rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.markdown-body h4 {
+  margin: 0.35rem 0 0.15rem;
+  font-weight: 700;
+  font-size: 0.98rem;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin: 0.25rem 0 0.4rem 1.25rem;
+  padding: 0;
+}
+
+.markdown-body li {
+  margin-bottom: 0.15rem;
+}

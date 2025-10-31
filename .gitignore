@@ -1,0 +1,7 @@
+augusta/
+__pycache__/
+*.pyc
+usage_log.csv
+frontend/node_modules/
+frontend/dist/
+.env
